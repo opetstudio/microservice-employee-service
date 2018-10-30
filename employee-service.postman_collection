@@ -1,0 +1,91 @@
+{
+	"id": "a9b7d612-9246-0c7e-edc9-710e1831903d",
+	"name": "employee-service",
+	"description": "",
+	"order": [
+		"935a85da-753c-ed50-0140-2b98915ec8af",
+		"c64ca570-c189-501a-2cc5-10848c90b7df",
+		"79fdb770-183c-34ab-b69f-27c665b7d057"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1540918771847,
+	"owner": "3725379",
+	"public": false,
+	"requests": [
+		{
+			"id": "79fdb770-183c-34ab-b69f-27c665b7d057",
+			"headers": "",
+			"headerData": [],
+			"url": "localhost:8080/department/1",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "a9b7d612-9246-0c7e-edc9-710e1831903d",
+			"data": null,
+			"dataMode": "params",
+			"name": "localhost:8080/department/1",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1540919204557,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "935a85da-753c-ed50-0140-2b98915ec8af",
+			"headers": "",
+			"headerData": [],
+			"url": "localhost:8080/5bd88f06c1d80c14f44076ee",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "GET",
+			"data": null,
+			"dataMode": "params",
+			"version": 2,
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1540919112585,
+			"name": "findById",
+			"description": "",
+			"collectionId": "a9b7d612-9246-0c7e-edc9-710e1831903d",
+			"responses": []
+		},
+		{
+			"id": "c64ca570-c189-501a-2cc5-10848c90b7df",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:8080/",
+			"queryParams": [],
+			"preRequestScript": null,
+			"pathVariables": {},
+			"pathVariableData": [],
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1540919045764,
+			"name": "save",
+			"description": "",
+			"collectionId": "a9b7d612-9246-0c7e-edc9-710e1831903d",
+			"responses": [],
+			"rawModeData": "{\n\t\"organizationId\": 1,\n\t\"departmentId\": 1,\n\t\"name\": \"opet\",\n\t\"age\": 32,\n\t\"position\": \"bos\"\n}"
+		}
+	]
+}
